@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat';
+}
+
+
+/* NAVBAR */
+
+.image-view {
+    position: relative;
+    background-image: url('../images/chicken-skewers-with-slices-sweet-peppers-dill\ 1.jpg'); 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.image-content-view {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar-view{
+    background-color: rgba(0, 0, 0, 0.438);
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.navbar-view img{
+    height: 90px;
+    width:110px;
+    padding-top:20px;
+
+}
+
+.nav-item a{
+    color:white;
+    font-weight: 600;
+}
+
+.view-button{
+    background-color:#CC9933;
+    color:white;
+    font-weight: 600;
+    width:150px;
+    height:37px;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* FOOTER */
+
+.footer1{
+    padding-top:355px;
+}
+
+.bottom-content{
+    justify-content: center;
+    background-color: white;
+    width:90%;
+    height:300px;
+    padding-top:90px;
+    /* border:2px solid black; */
+}
+
+.bottom-content h1{
+    font-size:58px;
+    font-weight: 900;
+}
+
+/* MEDIA QUERIES TO ADJUST OUR MENU AND BURGER TITLE */
+
+@media (max-width: 1200px) {
+    .bottom-content h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .bottom-content h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .bottom-content h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .bottom-content h1 {
+        font-size: 1.8rem;
+    }
+}
+
+
+/* ITEMS LIST */
+
+.items {
+    padding-top: 50px;
+}
+.items .buttons {
+    padding-top: 40px;
+}
+.items .buttons a {
+    background-color: #CC9933;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 20px;
+}
+.item-card {
+    display: flex;
+    border:3px solid #9f9f9f;
+}
+.item-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.item-card button{
+    padding-left:25px;
+}
+.card-body{
+    padding:5px;
+    padding-left:25px;
+}
+.card-body h5{
+    font-weight: 700;
+}
+.edit-btn {
+    color: black;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.edit-btn:hover {
+    text-decoration: none;
+}
+.remove-btn , .cancel-btn {
+    color: red;
+    font-weight: 500;
+}
+
+.price{
+    padding-left:25px;
+}

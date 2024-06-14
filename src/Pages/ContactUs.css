@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat';
+}
+
+
+/* NAVBAR */
+
+.image-contact {
+    position: relative;
+    background-image: url('../images/top-view-business-man-hands-working-laptop-tablet-pc-wooden-desk\ 1.png'); 
+    height: 510px;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-content-contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.image-content-contact h1{
+    color:white;
+    font-size: 4vw;
+    font-weight: 900;
+    padding-top:150px;
+    padding-left:200px;
+}
+
+/* MEDIA QUERIES FOR GALLERY */
+
+@media (max-width: 1200px) {
+    .image-content-contact h1 {
+        font-size: 5vw;
+        padding-left: 150px;
+    }
+}
+
+@media (max-width: 992px) {
+    .image-content-contact h1 {
+        font-size: 6vw;
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-content-contact h1 {
+        font-size: 8vw;
+        padding-left: 50px;
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 576px) {
+    .image-content-contact h1 {
+        font-size: 10vw;
+        padding-left: 20px;
+        padding-top: 50px;
+    }
+}
+
+.navbar-contact{
+    background-color: rgba(0, 0, 0, 0.462);
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.navbar-contact img{
+    height: 90px;
+    width:110px;
+    padding-top:20px;
+
+}
+
+.nav-item a{
+    color:white;
+    font-weight: 600;
+}
+
+.view-button{
+    background-color:#CC9933;
+    color:white;
+    font-weight: 600;
+    width:150px;
+    height:37px;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+/* CONTACT CONTENT 1 */
+
+.contact-content1 {
+    padding-top: 80px;
+    padding-bottom:50px;
+}
+
+.contact-content1 h1 {
+    font-size: 37px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.contact-content1 p {
+    padding-bottom: 20px;
+}
+
+.contact-form {
+    padding-top: 50px;
+    border: 3px solid #d49e33;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius:20px;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    max-width: 600px;
+    height: 55px;
+    border: none;
+    background-color: #F5F5F5;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #AAA9A9;
+}
+
+.contact-form textarea {
+    height: 180px;
+}
+
+.contact-form button {
+    margin-top:50px;
+    margin-bottom:40px;
+    width: 50%;
+    max-width: 600px;
+    padding: 10px;
+    background-color:#CC9933;
+    border: none;
+    cursor: pointer;
+    color:white;
+    font-size:17px;
+    font-weight: 550;
+}
+
+@media (max-width: 768px) {
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button {
+        padding: 10px;
+    }
+
+    .contact-form textarea {
+        height: 200px;
+    }
+}
+
+/* CONTACT CONTENT 3 */
+
+.contact-content3{
+    padding-top:80px;
+}
+
+
+/* HOME CONTENT 8 */
+
+.home-content8{
+    background-color: black;
+    padding-bottom: 40px;
+}
+
+.home-content8 .container{
+    padding-top:80px;
+}
+
+.home-content8 .one h1{
+    font-weight: 700;
+    color:white;
+    padding-top:20px;
+    font-size: 19px;
+}
+
+.home-content8 .one p{
+    color:white;
+    font-size: 12px;
+}
+
+
+.home-content8 .two h1{
+    font-weight: 700;
+    color:white;
+    padding-top:19px;
+    font-size: 19px;
+}
+
+.home-content8 .two a{
+    padding-top:10px;
+    color:white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.home-content8 .three h1{
+    font-weight: 700;
+    color:white;
+    padding-top:19px;
+    font-size: 19px;
+}
+
+.home-content8 .three p{
+    color:white;
+    font-size:14px;
+}
+
+
+.home-content8 .four h1{
+    font-weight: 700;
+    color:white;
+    padding-top:19px;
+    font-size: 19px;
+}
+
+.home-content8 .four p{
+    color:white;
+    font-size:13px;
+}
+
+/* HOME CONTENT 9 */
+
+.home-content9{
+    background-color: #CC9933;
+}
+
+footer{
+    padding-top:30px;
+    padding-bottom:15px;
+}
+
+footer p{
+    font-weight: 500;
+}
+
+footer a{
+    background-color: black;
+    color:#CC9933;
+    padding:7px;
+    border-radius: 120px;
+    justify-content:center;
+}
+
+
+
+

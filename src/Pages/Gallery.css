@@ -1,0 +1,252 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat';
+}
+
+
+/* NAVBAR */
+
+.image {
+    position: relative;
+    background-image: url('../images/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table\ 1.png'); 
+    height: 380px;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-content-gallery {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.image-content-gallery h1{
+    color:white;
+    font-size: 4vw;
+    font-weight: 900;
+    padding-top:90px;
+    padding-left:200px;
+}
+
+/* MEDIA QUERIES FOR GALLERY */
+
+@media (max-width: 1200px) {
+    .image-content-gallery h1 {
+        font-size: 5vw;
+        padding-left: 150px;
+    }
+}
+
+@media (max-width: 992px) {
+    .image-content-gallery h1 {
+        font-size: 6vw;
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-content-gallery h1 {
+        font-size: 8vw;
+        padding-left: 50px;
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 576px) {
+    .image-content-gallery h1 {
+        font-size: 10vw;
+        padding-left: 20px;
+        padding-top: 50px;
+    }
+}
+
+.gallery-navbar{
+    background-color: rgba(0, 0, 0, 0.585);
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.gallery-navbar img{
+    height: 90px;
+    width:110px;
+    padding-top:20px;
+
+}
+
+.nav-item a{
+    color:white;
+    font-weight: 600;
+}
+
+.view-button{
+    background-color:#CC9933;
+    color:white;
+    font-weight: 600;
+    width:150px;
+    height:37px;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* IMAGE SECTION */
+
+.image-section {
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.image-section img {
+    width: 325px;
+    height: 406px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top:80px;
+}
+
+.gallery-item {
+    flex: 1 1 30%;
+    max-width: 30%;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 992px) {
+    .gallery-item {
+        flex: 1 1 45%;
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+.arrow {
+    font-size: 2em;
+    cursor: pointer;
+    color: #333;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.arrow.left {
+    left: 15px;
+}
+.arrow.right {
+    right: 15px;
+}
+.modal-body {
+    position: relative;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.modal-backdrop.blur {
+    backdrop-filter: blur(50px) ;
+    -webkit-backdrop-filter: blur(10px) brightness(0.8); /* For Safari */
+    background-color: rgb(0, 0, 0); /* Semi-transparent background color */
+}
+/* Footer */
+
+
+.home-content8{
+    background-color: black;
+    padding-bottom: 40px;
+}
+
+.home-content8 .container{
+    padding-top:80px;
+}
+
+.home-content8 .one h1{
+    font-weight: 700;
+    color:white;
+    padding-top:20px;
+    font-size: 19px;
+}
+
+.home-content8 .one p{
+    color:white;
+    font-size: 12px;
+}
+
+
+.home-content8 .two h1{
+    font-weight: 700;
+    color:white;
+    padding-top:19px;
+    font-size: 19px;
+}
+
+.home-content8 .two a{
+    padding-top:10px;
+    color:white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.home-content8 .three h1{
+    font-weight: 700;
+    color:white;
+    padding-top:19px;
+    font-size: 19px;
+}
+
+.home-content8 .three p{
+    color:white;
+    font-size:14px;
+}
+
+
+.home-content8 .four h1{
+    font-weight: 700;
+    color:white;
+    padding-top:19px;
+    font-size: 19px;
+}
+
+.home-content8 .four p{
+    color:white;
+    font-size:13px;
+}
+
+.home-content9{
+    background-color: #CC9933;
+}
+
+footer{
+    padding-top:30px;
+    padding-bottom:15px;
+}
+
+footer p{
+    font-weight: 500;
+}
+
+footer a{
+    background-color: black;
+    color:#CC9933;
+    padding:7px;
+    border-radius: 120px;
+    justify-content:center;
+}

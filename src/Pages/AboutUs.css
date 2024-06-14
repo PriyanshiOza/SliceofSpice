@@ -1,0 +1,369 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat';
+}
+
+
+/* NAVBAR */
+
+.image-about-us {
+    position: relative;
+    background-image: url('../images/serving-wedding-table-vintage-style\ 1.png'); 
+    height: 380px;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-content-about-us {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.image-content-about-us h1{
+    color:white;
+    font-size: 4vw;
+    font-weight: 900;
+    padding-top:90px;
+    padding-left:200px;
+}
+
+
+/* MEDIA QUERIES FOR GALLERY */
+
+@media (max-width: 1200px) {
+    .image-content-about-us h1 {
+        font-size: 5vw;
+        padding-left: 170px;
+    }
+}
+
+@media (max-width: 992px) {
+    .image-content-about-us h1 {
+        font-size: 6vw;
+        padding-left: 110px;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-content-about-us h1 {
+        font-size: 8vw;
+        padding-left: 50px;
+        padding-top: 90px;
+    }
+}
+
+@media (max-width: 576px) {
+    .image-content-about-us h1 {
+        font-size: 10vw;
+        padding-left: 20px;
+        padding-top: 70px;
+    }
+}
+
+.navbar-about{
+    background-color: rgba(0, 0, 0, 0.585);
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.navbar-about img{
+    height: 90px;
+    width:110px;
+    padding-top:20px;
+
+}
+
+.nav-item a{
+    color:white;
+    font-weight: 600;
+}
+
+.view-button{
+    background-color:#CC9933;
+    color:white;
+    font-weight: 600;
+    width:150px;
+    height:37px;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+/* ABOUT US CONTENT */
+
+/* content 1 */
+
+.about-content1 {
+    padding-top: 90px;
+}
+
+.about-us-content {
+    padding-top: 10px;
+    background-color: #F7E9E4;
+    padding-bottom: 10px;
+}
+
+.about-us-content h2 {
+    font-size: 30px; /* Adjust font size as needed */
+    font-weight: 650;
+    padding-top: 70px;
+}
+
+.about-us-content img {
+    height: auto;
+    max-width: 100%;
+}
+
+@media (min-width: 476px) {
+    .about-us-content h2 {
+        padding-top: 30px; /* Increase top padding for smaller screens */
+    }
+}
+
+@media (min-width: 576px) {
+    .about-us-content h2 {
+        padding-top: 50px; /* Increase top padding for smaller screens */
+    }
+}
+
+@media (min-width: 768px) {
+    .about-us-content h2 {
+        padding-top: 70px; /* Further increase top padding for medium screens */
+    }
+}
+
+@media (min-width: 868px) {
+    .about-us-content h2 {
+        padding-top: 90px; /* Further increase top padding for medium screens */
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .about-us-content h2 {
+        padding-top: 70px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-us-content h2 {
+        padding-top: 90px;
+    }
+}
+
+
+
+
+.about-us-content img{
+    height:446px;
+    width:579px;
+}
+
+.about-content1 .container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 992px) {
+    .about-content1 .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.about-content1 .col {
+    flex: 1;
+    margin: 20px;
+}
+
+
+
+/* content 2 */
+
+
+ .about-content2{
+    background-color: white;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+
+.about-content2 .item {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 7px;
+}
+
+.about-content2 img{
+    height: 72px;
+    width: 70px;
+}
+
+.about-content2 figcaption{
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.about-content2 p{
+    font-size: 13px;
+}
+
+
+
+.about-content3{
+    background-color: #FFEECB;
+}
+
+.about-content3 h1{
+    padding-top:70px;
+    font-size:4vw;
+    font-weight: 700;
+}
+
+.about-content3 .row{
+    column-gap: 30px;
+}
+
+.team-members {
+    padding-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    background-color: white;
+    padding-top:20px ;
+    flex:1;
+    margin-top:10px;
+}
+
+.team-member h4{
+    padding-top:20px;
+    font-weight:700;
+    padding-bottom:10px;
+}
+
+.team-member .img1,.img2{
+    padding-bottom:20px;
+}
+
+.about-content3 .container {
+    padding-bottom: 50px;
+}
+
+
+/* ABOUT CONTENT 4 */
+
+.about-content4{
+    background-color: white;
+    padding-top:100px;
+}
+
+
+/* HOME CONTENT 8 */
+
+.home-content8{
+    background-color: black;
+    padding-bottom: 40px;
+}
+
+.home-content8 .container{
+    padding-top:80px;
+}
+
+.home-content8 .one h1{
+    font-weight: 700;
+    color:white;
+    padding-top:20px;
+    font-size: 19px;
+}
+
+.home-content8 .one p{
+    color:white;
+    font-size: 12px;
+}
+
+
+.home-content8 .two h1{
+    font-weight: 700;
+    color:white;
+    padding-top:19px;
+    font-size: 19px;
+}
+
+.home-content8 .two a{
+    padding-top:10px;
+    color:white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.home-content8 .three h1{
+    font-weight: 700;
+    color:white;
+    padding-top:19px;
+    font-size: 19px;
+}
+
+.home-content8 .three p{
+    color:white;
+    font-size:14px;
+}
+
+
+.home-content8 .four h1{
+    font-weight: 700;
+    color:white;
+    padding-top:19px;
+    font-size: 19px;
+}
+
+.home-content8 .four p{
+    color:white;
+    font-size:13px;
+}
+
+/* HOME CONTENT 8 */
+
+.home-content9{
+    background-color: #CC9933;
+}
+
+footer{
+    padding-top:30px;
+    padding-bottom:15px;
+}
+
+footer p{
+    font-weight: 500;
+}
+
+footer a{
+    background-color: black;
+    color:#CC9933;
+    padding:7px;
+    border-radius: 120px;
+    justify-content:center;
+}
+
+
+
+
+
+
+
+
