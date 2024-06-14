@@ -26,7 +26,7 @@ export default function Home() {
         <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav text-right ml-auto">
             <li className="nav-item">
-                <a className="nav-link mr-4" href="/">HOME</a>
+                <a className="nav-link mr-4" href="/">INDEX</a>
             </li>
             <li className="nav-item">
                 <a className="nav-link mr-4" href="/menu">MENU</a>
